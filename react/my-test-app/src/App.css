@@ -1,0 +1,52 @@
+body {
+  background: url(./images/Friends2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+ }
+ p {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ .header-text {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 52px;
+  }
+  .content-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+  }
+  .main-content {
+   color: white;
+   padding: 5%;
+   background-color: black;
+   width: 90%;
+   opacity: 80%;
+   position: absolute;
+  }
+  .sub-heading {
+   font-size: 18px;
+  }
+  .lesson-card {
+   width: 300px;
+   border-radius: 2px;
+   border: solid;
+   padding: 10px;
+   cursor: pointer;
+  }
+  .lesson-card:hover {
+   background-color: #191a3c;
+   border-color: #3f3615;
+  }
+  .more-info-panel {
+   background-color: white;
+   padding: 2px;
+   margin-top: 5px;
+  }
+  .black-text {
+      color: black;
+     }
+     
+ 
